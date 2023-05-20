@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+.top-bar{
+    padding: 20px;
+    background-color: rgb(17, 17, 90);
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.main-div div{
+    padding: 10px 10px;
+    width: 50%;
+    margin: 15px auto;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: lightsalmon;
+}
+
+.second a,span{
+    margin: 5px;
+}
+
+table,th,td{
+    border-collapse: collapse;
+   
+    border: 1px solid lightgray;
+    padding: 3px;
+    margin-top: 5px;
+    text-align: left;
+    width: -webkit-fill-available;
+}
+
+#table1{
+    background-color: rgb(232, 232, 248);
+}
+
+th{
+    font-weight: 700;
+}
+
+.tab{
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 15px;
+    margin: 5px;
+    background-color: white;
+}
+
+.register-section fieldset{
+    border: none; 
+    margin-top: 5px;
+    background-color:  #e7f4f8;
+}
+
+input{
+    width: 98%;
+    margin: 10px 0px;
+    padding: 3px;
+    border-width:0.5;
+}
+
+input:hover{
+    border-color: green;
+    border-radius: 5px;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+input#sub{
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+input#sub:hover{
+    background-color:rgb(51, 50, 50);
+    color: white;
+    border-color: black;
+}
